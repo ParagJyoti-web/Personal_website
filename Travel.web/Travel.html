@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripGo - Explore The World</title>
+  <link rel="stylesheet" href="Travel.css">
+</head>
+<body>
+  <nav>
+    <h2>TripGo</h2>
+    <div>
+      <a href="#destinations">Destinations</a>
+      <a href="#packages">Packages</a>
+      <a href="#booking">Book Now</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Explore The World With Us</h1>
+      <p>Best Travel Deals & Unforgettable Experiences</p><br>
+      <a href="#packages" class="btn">View Packages</a>
+    </div>
+  </div>
+
+  <section id="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600" alt="Goa">
+        <div class="card-content">
+          <h3>Goa, India</h3>
+          <p>Beaches, nightlife and Portuguese vibes</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Manali">
+        <div class="card-content">
+          <h3>Manali, Himachal</h3>
+          <p>Snow mountains and adventure trips</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=600" alt="Kerala">
+        <div class="card-content">
+          <h3>Kerala</h3>
+          <p>Backwaters, houseboats and greenery</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1527668752968-14dc70a27cbb?w=600" alt="Meghalaya">
+        <div class="card-content">
+          <h3>Meghalaya</h3>
+          <p>Abode of Clouds - Cherrapunji & Dawki</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages">
+    <h2>Tour Packages</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600" alt="Package">
+        <div class="card-content">
+          <h3>North East Trip - 5 Days</h3>
+          <p>Shillong, Cherrapunji, Dawki</p>
+          <p class="price">₹18,999 / Person</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600" alt="Package">
+        <div class="card-content">
+          <h3>Rajasthan Royal - 7 Days</h3>
+          <p>Jaipur, Udaipur, Jaisalmer</p>
+          <p class="price">₹24,999 / Person</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1491557345352-5929e343eb89?w=600" alt="Package">
+        <div class="card-content">
+          <h3>Thailand Tour - 6 Days</h3>
+          <p>Bangkok, Pattaya, Phuket</p>
+          <p class="price">₹49,999 / Person</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Trip</h2>
+    <div class="booking">
+      <form onsubmit="alert('Booking Submitted! We will contact you soon.');return false;">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <select required>
+          <option value="">Select Destination</option>
+          <option>Goa</option>
+          <option>Manali</option>
+          <option>Kerala</option>
+          <option>North East</option>
+          <option>Rajasthan</option>
+          <option>Thailand</option>
+        </select>
+        <input type="date" required>
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>What Our Customers Say</h2>
+    <div class="grid">
+      <div class="testimonial">
+        <p>"Best trip ever! TripGo team was amazing. Highly recommend."</p>
+        <h4>- Rahul S.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Affordable packages and great service. Loved my Manali trip."</p>
+        <h4>- Priya D.</h4>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 TripGo Travels | Call: +91 9876543210 | Email: info@tripgo.com</p>
+  </footer>
+</body>
+</html>
